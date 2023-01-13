@@ -111,11 +111,16 @@
       <div class="contact-form">
         <h4>Send a message...</h4>
         <form class="form" name="form-contact" netlify>
-          <input type="text" placeholder="Affair" id="Affair">
-          <input type="text" placeholder="Name" id="Name">
-          <input type="number" placeholder="Cell phone" id="Cell phone">
-          <input type="email" placeholder="Email" id="Email">
-          <textarea placeholder="write your message here.." ></textarea>
+          <label for="Affair">Affair:</label>
+          <input type="text" name="Affair" id="Affair">
+          <label for="Name">Name:</label>
+          <input type="text" name="Name" id="Name">
+          <label for="Cell">Cell phone:</label>
+          <input type="number" name="Cell phone" id="Cell">
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" id="Email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="write your message here.." ></textarea>
           <button class="btn-submit" type="submit" value="Enviar">Send message</button>
         </form>
       </div>
