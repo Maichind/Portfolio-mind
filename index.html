@@ -1,0 +1,143 @@
+<!-- PORTFOLIO MIND!-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio MMindiola</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/c409098e01.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ENCABEZADO -->
+  <div class="contenedor-header">
+    <header>
+      <nav class="nav" id="nav">
+        <div class="abrev">
+          <h2>Mind!<span> Developer</span></h2>
+        </div>
+        <ul class="menu" id="nav">
+          <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+          <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+          <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+          <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+          <div class="contenedor-img">
+              <img src="img/logo.jpg" alt="">
+          </div>
+          <h1>Maichol Mindiola Joiro</h1>
+          <h2>Mechatronic Engineer <br> Full Stack Developer</h2>
+          <div class="redes">
+            <a href="https://api.whatsapp.com/send?phone=3012577970&text=Soy%20Mind!%20Developer,%20cu%C3%A9ntame%20en%20qu%C3%A9%20puedo%20ayudarte." target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/Maichind" target="_blank">
+              <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/maichol-mindiola-joiro-2328751b4/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+          <a download href="Hoja de vida Maichol Mindiola.pdf" target="_blank">
+            <button class="download-cv">Download CV</button>
+          </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECCION SKILLS -->
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="divider0"></div>
+      <div class="fila">
+        <!-- Column 1-->
+        <!-- Technical Skill - Frontend -->
+        <div class="col" id="column1">
+            <h3>Frontend</h3>
+        </div>
+
+        <!-- Column 2-->
+        <!-- Technical Skill - Backend-->
+        <div class="col" id="column2">
+          <h3>Backend</h3>
+        </div>
+        
+        <!-- Column 3-->
+        <!-- Technical Skill - Databases-->
+        <div class="col" id="column3">
+          <h3>Databases</h3>
+        </div>
+
+        <!-- Column 4-->
+        <!-- Professional Skills -->
+        <div class="col" id="column4">
+          <h3>Professional Skills</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-heading">
+      <h2>My Portfolio</h2>
+      <div class="divider2"></div>
+    </div>
+  
+    <div class="container" id="container">
+      <!-- Projects -->
+    </div> 
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contacto">
+    <div class="contact-heading">
+      <h2>Contact me</h2>
+      <div class="divider3"></div>
+    </div>
+    <div class="container-contact">
+      <div class="contact-form">
+        <h4>Send a message...</h4>
+        <form class="form" name="form-contact" netlify>
+          <input type="Affair" placeholder="Affair" id="Affair">
+          <input type="Name" placeholder="Name" id="Name">
+          <input type="Cell phone" placeholder="Cell phone" id="Cell phone">
+          <input type="email" placeholder="Email" id="Email">
+          <textarea placeholder="write your message here.." ></textarea>
+          <button class="btn-submit" value="Enviar">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="sotial-network">
+      <hr width="800">
+      <a href="https://api.whatsapp.com/send?phone=3012577970&text=Soy%20Mind!%20Developer,%20cu%C3%A9ntame%20en%20qu%C3%A9%20puedo%20ayudarte." target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="https://github.com/Maichind" target="_blank">
+        <i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/maichol-mindiola-joiro-2328751b4/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <hr width="800">
+    </div>
+    <p>Copyright © 2022 Mind! Developer.</p>
+  </footer>
+  
+  <script src="./Js/script.js"></script>
+</body>
+</html>
