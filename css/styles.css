@@ -566,12 +566,12 @@ body {
 .form label{
   font-size: 14px;
   font-weight: 600;
-  margin-left: -28rem;
+  margin-left: -35%;
 }
 
 .form input{
   padding: 3px 20px;
-  width: 20vw;
+  width: 20%;
   margin-top: -20px;
   margin-bottom: 1em;
   margin-left: 1rem;
@@ -584,7 +584,7 @@ body {
 
 .form textarea{
   height: 200px;
-  width: 30vw;
+  width: 30%;
   background: none;
   color: aliceblue;
   padding: 1.5em;
@@ -685,6 +685,12 @@ body {
   nav.responsive ul li{
     border-bottom: 1px solid aliceblue;
     padding: 5px 0;
+  }
+  .portfolio{
+    height: auto;
+  }
+  .contact{
+    height: auto;
   }
 }
 
