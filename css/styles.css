@@ -566,7 +566,7 @@ body {
 .form label{
   font-size: 14px;
   font-weight: 600;
-  margin-left: -35%;
+  margin-left: -25%;
 }
 
 .form input{
@@ -691,6 +691,12 @@ body {
   }
   .contact{
     height: auto;
+  }
+  .form label{
+    margin-left: 0%;
+  }
+  .form input{
+    margin-top: 0px;
   }
 }
 
