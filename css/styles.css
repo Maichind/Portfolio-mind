@@ -697,6 +697,10 @@ body {
   }
   .form input{
     margin-top: 0px;
+    width: 40%;
+  }
+  .form textarea{
+    width: 40%;
   }
 }
 
